@@ -30,15 +30,15 @@ $ cd edu-service
 $ python3.7 -m venv .
 $ source bin/activate
 
-$ git clone https://gitlab.com/truongnd96/edu-service.git repo
+$ git clone https://github.com/datnguyen51/Document-Management.git repo
 $ cd repo
 
 $ pip install -r requirements.txt
 
 $ sudo -su postgres psql
-$ create user eduowner with password 'edu@2020';
-$ create database edu;
-$ alter user eduowner with superuser;
+$ create user documentowner with password 'document2021';
+$ create database document;
+$ alter user documentowner with superuser;
 
 $ cd alembic
 $ mkdir versions
