@@ -14,19 +14,6 @@ $ sudo apt-get install python3 python-dev python3-dev \
      python-pip
 ```
 
-### Install Redis
-```
-$ sudo add-apt-repository universe
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo apt-get install redis-server
-$ sudo systemctl enable redis-server.service
-$ sudo nano /etc/redis/redis.conf
-maxmemory 256mb
-maxmemory-policy allkeys-lru
-$ sudo systemctl restart redis-server.service
-```
-
 ### Install Postgres
 ```
 $ sudo apt-get install wget ca-certificates
