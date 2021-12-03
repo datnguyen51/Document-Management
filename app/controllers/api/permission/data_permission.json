@@ -1,0 +1,342 @@
+{
+    "permission":[
+    {
+        "type":"Account",
+        "permission": [
+            {
+                "name":"Tạo tài khoản",
+                "method":"POST"
+            },
+            {
+                "name":"Sửa tài khoản",
+                "method":"PUT"
+            },
+            {
+                "name":"Xóa tài khoản",
+                "method":"DELETE"
+            },
+            {
+                "name":"Xem tài khoản",
+                "method":"GET"
+            }
+        ]
+        
+    },
+    {
+        "type":"Staff",
+        "permission": [
+            {
+                "name":"Thêm nhân viên",
+                "method":"POST"
+            },
+            {
+                "name":"Sửa nhân viên",
+                "method":"PUT"
+            },
+            {
+                "name":"Xóa nhân viên",
+                "method":"DELETE"
+            },
+            {
+                "name":"Xem nhân viên",
+                "method":"GET"
+            }
+        ]
+        
+    },
+    {
+        "type":"Department",
+        "permission": [
+            {
+                "name":"Thêm phòng ban",
+                "method":"POST"
+            },
+            {
+                "name":"Sửa phòng ban",
+                "method":"PUT"
+            },
+            {
+                "name":"Xóa phòng ban",
+                "method":"DELETE"
+            },
+            {
+                "name":"Xem phòng ban",
+                "method":"GET"
+            }
+        ]
+    },
+    {
+        "type":"Position",
+        "permission": [
+            {
+                "name":"Thêm chức vụ",
+                "method":"POST"
+            },
+            {
+                "name":"Sửa chức vụ",
+                "method":"PUT"
+            },
+            {
+                "name":"Xóa chức vụ",
+                "method":"DELETE"
+            },
+            {
+                "name":"Xem chức vụ",
+                "method":"GET"
+            }
+        ]
+    },
+    {
+        "type":"Role",
+        "permission": [
+            {
+                "name":"Thêm nhóm người dùng",
+                "method":"POST"
+            },
+            {
+                "name":"Sửa nhóm người dùng",
+                "method":"PUT"
+            },
+            {
+                "name":"Xóa nhóm người dùng",
+                "method":"DELETE"
+            },
+            {
+                "name":"Xem nhóm ngơời dùng",
+                "method":"GET"
+            }
+        ]
+    },
+    {
+        "type":"Unit",
+        "permission": [
+            {
+                "name":"Xem đơn vị gửi văn bản",
+                "method":"GET"
+            },
+            {
+                "name":"Tạo đơn vị gửi văn bản",
+                "method":"POST"
+            },
+            {
+                "name":"Xóa đơn vị gửi văn bản",
+                "method":"DELETE"
+            },
+            {
+                "name":"Cập nhật đơn vị gửi văn bản",
+                "method":"PUT"
+            }
+        ]
+    },
+    {
+        "type":"Document Type",
+        "permission": [
+            {
+                "name":"Xem các loại văn bản",
+                "method":"GET"
+            },
+            {
+                "name":"Tạo mới loại văn bản",
+                "method":"POST"
+            },
+            {
+                "name":"Xóa loại văn bản",
+                "method":"DELETE"
+            },
+            {
+                "name":"Cập nhật loại văn bản",
+                "method":"PUT"
+            }
+        ]
+    },
+    {
+        "type":"Document",
+        "permission": [
+            {
+                "name":"Xem văn bản",
+                "method":"GET"
+            },
+            {
+                "name":"Tạo văn bản",
+                "method":"POST"
+            },
+            {
+                "name":"Xóa văn bản",
+                "method":"DELETE"
+            },
+            {
+                "name":"Cập nhật văn bản",
+                "method":"PUT"
+            }
+        ]
+    },
+    {
+        "type":"Move Document",
+        "permission": [
+            {
+                "name":"Chuyển văn bản lên BGH",
+                "method":"POST"
+            }
+        ]
+    },
+    {
+        "type":"Document Admin",
+        "permission": [
+            {
+                "name":"Cập nhật văn bản (BGH)",
+                "method":"PUT"
+            },
+            {
+                "name":"Danh sách văn bản cần xử lý (BGH)",
+                "method":"GET"
+            },
+            {
+                "name":"Xử lý văn bản (BGH)",
+                "method":"POST"
+            }
+        ]
+    },
+    {
+        "type":"Document Manager",
+        "permission": [
+            {
+                "name":"Chỉnh sửa phân công (Quản lý)",
+                "method":"PUT"
+            },
+            {
+                "name":"Xem văn bản được phân công (Quản lý)",
+                "method":"GET"
+            },
+            {
+                "name":"Tạo công việc cho nhân viên (Quản lý)",
+                "method":"POST"
+            }
+        ]
+    },
+    {
+        "type":"Document Staff",
+        "permission": [
+            {
+                "name":"Tiếp nhận văn bản (Nhân viên)",
+                "method":"PUT"
+            },
+            {
+                "name":"Xem văn bản được phân công (Nhân viên)",
+                "method":"GET"
+            }
+        ]
+    },
+    {
+        "type":"Admin Report",
+        "permission": [
+            {
+                "name":"Xử lý báo cáo công việc (BGH)",
+                "method":"PUT"
+            },
+            {
+                "name":"Xem báo cáo công việc (BGH)",
+                "method":"GET"
+            }
+        ]
+    },
+    {
+        "type":"Manager Report",
+        "permission": [
+            {
+                "name":"Xử lý báo cáo công việc (Quản lý)",
+                "method":"PUT"
+            },
+            {
+                "name":"Xem báo cáo công việc (Quản lý)",
+                "method":"GET"
+            }
+        ]
+    },
+    {
+        "type":"Staff Report",
+        "permission": [
+            {
+                "name":"Chỉnh sửa báo cáo (NV)",
+                "method":"PUT"
+            },
+            {
+                "name":"Xem báo cáo công việc (NV)",
+                "method":"GET"
+            },
+            {
+                "name":"Tạo báo cáo công việc (NV)",
+                "method":"POST"
+            }
+        ]
+    },
+    {
+        "type":"Expires",
+        "permission": [
+            {
+                "name":"Thiết lập thời hạn xử lý",
+                "method":"POST"
+            },
+            {
+                "name":"Xem thiết lập thời hạn xử lý",
+                "method":"GET"
+            },
+            {
+                "name":"Chỉnh sửa thiết lập thời hạn xử lý",
+                "method":"PUT"
+            },
+            {
+                "name":"Xóa thiết lập xử lý",
+                "method":"DELETE"
+            }
+        ]
+    },
+    {
+        "type":"Document Expires",
+        "permission": [
+            {
+                "name":"Theo dõi văn bản quá hạn",
+                "method":"GET"
+            },
+            {
+                "name":"Xem thiết lập thời hạn xử lý",
+                "method":"GET"
+            },
+            {
+                "name":"Chỉnh sửa thiết lập thời hạn xử lý",
+                "method":"PUT"
+            },
+            {
+                "name":"Xóa thiết lập xử lý",
+                "method":"DELETE"
+            }
+        ]
+    },
+    {
+        "type":"Admin Statistic",
+        "permission": [
+            {
+                "name":"Báo cáo thống kê BGH",
+                "method":"GET"
+            }
+        ]
+    },
+    {
+        "type":"Manager Statistic",
+        "permission": [
+            {
+                "name":"Báo cáo thống kê NV",
+                "method":"GET"
+            }
+        ]
+    },
+    {
+        "type":"Staff Statistic",
+        "permission": [
+            {
+                "name":"Báo cáo thống kê TP",
+                "method":"GET"
+            }
+        ]
+    }
+    ]
+}

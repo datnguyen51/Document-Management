@@ -1,0 +1,66 @@
+{
+    "department":[
+        {
+            "name": "Ban Giám Hiệu",
+            "created_at": 1631154810,
+            "description": "Là bộ phận cao nhất trường",
+            "children": [
+                {
+                    "name": "Phòng Hành Chính",
+                    "created_at": 1631154810,
+                    "description": "Là bộ phận ",
+                    "children": [
+                        
+                    ]
+                },
+                {
+                    "name": "Phòng Đào Tạo",
+                    "created_at": 1631154810,
+                    "description": "Là bộ phận ",
+                    "children": [
+                        {
+                            "name": "Khoa Toán Tin",
+                            "created_at": 1631154810,
+                            "description": "Là bộ phận ",
+                            "children": [
+                                
+                            ]
+                        },
+                        {
+                            "name": "Khoa Ngoại Ngữ",
+                            "created_at": 1631154810,
+                            "description": "Là bộ phận ",
+                            "children": [
+                                
+                            ]
+                        },
+                        {
+                            "name": "Khoa Du Lịch",
+                            "created_at": 1631154810,
+                            "description": "Là bộ phận ",
+                            "children": [
+                                
+                            ]
+                        },
+                        {
+                            "name": "Khoa Kinh tế - Quản lý",
+                            "created_at": 1631154810,
+                            "description": "Là bộ phận ",
+                            "children": [
+                                
+                            ]
+                        },
+                        {
+                            "name": "Khoa Truyền thông Đa phương tiện",
+                            "created_at": 1631154810,
+                            "description": "Là bộ phận ",
+                            "children": [
+                                
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
